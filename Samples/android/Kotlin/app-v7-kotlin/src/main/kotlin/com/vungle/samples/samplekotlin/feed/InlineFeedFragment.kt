@@ -26,6 +26,11 @@ class InlineFeedFragment : Fragment(R.layout.fragment_inline_feed) {
 
     }
 
+//    private lateinit var root: ViewGroup
+//
+//    private val recyclerview by lazy { root.findViewById<RecyclerView>(R.id.recycler_view) }
+
+
     private var _binding: FragmentInlineFeedBinding? = null
     val binding get() = _binding!!
     private lateinit var placementId: String
